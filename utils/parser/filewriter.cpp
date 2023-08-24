@@ -9,7 +9,7 @@ void FileWriter::write(const std::string file, const std::vector<BenchmarkData> 
     }
 
     // write header 
-    std::string header = "particles,timesteps,memory,runtime,looptime";
+    std::string header = "config,particles,timesteps,memory,runtime,looptime,";
     header.append("mpi_pair,mpi_bond,mpi_neigh,mpi_comm,mpi_output,mpi_modify,mpi_other\n");
     ofs.write(header.data(), header.size());
 
