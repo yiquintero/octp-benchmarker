@@ -1,0 +1,15 @@
+512
+1000000
+Memory Utilized: 2.11 GB (estimated maximum)
+Job Wall-clock time: 00:03:29
+Loop time of 204.096 on 16 procs for 1000000 steps with 512 atoms
+MPI task timing breakdown:
+Section |  min time  |  avg time  |  max time  |%varavg| %total
+---------------------------------------------------------------
+Pair    | 64.914     | 76.86      | 86.737     |  71.4 | 37.66
+Bond    | 0.036069   | 0.037679   | 0.039026   |   0.4 |  0.02
+Neigh   | 1.3692     | 1.501      | 1.6001     |   5.9 |  0.74
+Comm    | 82.129     | 89.818     | 101.97     |  60.0 | 44.01
+Output  | 0.036096   | 0.040143   | 0.040615   |   0.5 |  0.02
+Modify  | 29.665     | 32.062     | 34.636     |  23.8 | 15.71
+Other   |            | 3.777      |            |       |  1.85

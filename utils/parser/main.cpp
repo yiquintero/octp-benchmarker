@@ -7,9 +7,8 @@ int main ()
 {
     std::vector<std::string> cases{"../data/octp_all", "../data/octp_none", "../data/octp_rdf", "../data/octp_selfdiffusion_onsager", "../data/octp_tc", "../data/octp_viscosity"};
     std::vector<std::string> particles{"512"};
-    std::vector<std::string> timesteps{"100K", "500K"};
-    //std::vector<std::string> runs{"0", "1", "2", "3", "4", "5", "6", "7", "8", "9"};
-    std::vector<std::string> runs{"0"};
+    std::vector<std::string> timesteps{"100K", "500K", "1M", "5M", "10M", "25M", "50M"};
+    std::vector<std::string> runs{"0", "1", "2", "3", "4", "5", "6", "7", "8", "9"};
     std::vector<std::pair<OCTPConfigurations, std::string>> files;
 
     std::vector<OCTPConfigurations> configs{OCTPConfigurations::all, OCTPConfigurations::none, OCTPConfigurations::rdf,
@@ -31,7 +30,7 @@ int main ()
     auto data = parser.parse(files);
 
     FileWriter writer;
-    writer.write("octpbenchmarkdata.csv", data);
+    writer.write("../../octpbenchmarkdata.csv", data);
 
     return 0;
 
