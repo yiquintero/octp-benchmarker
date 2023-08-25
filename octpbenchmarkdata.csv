@@ -1,4 +1,4 @@
-particles,timesteps,memory,runtime,looptimempi_pair,mpi_bond,mpi_neigh,mpi_comm,mpi_output,mpi_modify,mpi_other
+config,particles,timesteps,memory,runtime,looptime,mpi_pair,mpi_bond,mpi_neigh,mpi_comm,mpi_output,mpi_modify,mpi_other
 all,512,100000,2.490000,29,23.677200,32.360001,0.020000,0.650000,42.570000,0.020000,22.430000,1.950000
 all,512,100000,2.490000,30,24.034599,32.040001,0.020000,0.650000,41.619999,0.040000,23.540001,2.090000
 all,512,100000,1.830000,27,23.302099,32.840000,0.020000,0.670000,42.439999,0.020000,22.200001,1.820000
